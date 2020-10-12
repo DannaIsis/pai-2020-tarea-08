@@ -19,7 +19,6 @@ int     getMax(THeap *h);
 void    bottomUpHeapify(int *arr, int k, char ord);
 void	topDownHeapify(int* arr, int k, int n, char ord);
 
-
 // Definiciones ===============================================================
 
 
@@ -114,7 +113,5 @@ void topDownHeapify(int * arr, int k, int n){
 		}
 	}
 }
-
-#endif
 
 #endif
