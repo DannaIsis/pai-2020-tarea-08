@@ -73,7 +73,7 @@ void bottomUpHeapify(int *arr, int k, char ord){
 		}
 	}
 } 
-void topDownHeapify(int * arr, int k, int n){
+void topDownHeapify(int * arr, int k, int n, char ord){
   if(ord == 0){
 		while(3*k-1 <= n){
 			int j = 3*k - 1;//primer nodo hijo
